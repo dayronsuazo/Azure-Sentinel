@@ -7,13 +7,12 @@ My next step will be to set up a **log repository (Log Analytics Workspace)** wh
 I will also be using PowerShell to extract the IP Address from the Windows logs and send  it to a third party API which will then send it back to our VM, to create a custom log with data.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
+**Log Analysis**
+By creating the VM, I was able to see what a failed log on attempt looks like by checking Windows Event Viewer>Audit Failure>Event ID 4625.
+This Event ID also provides network information such as:
+Workstation Name and source IP Address
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+I will be using "ipgeolocation.io IP lookup database" to identify where users are attempting to log in from.
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
