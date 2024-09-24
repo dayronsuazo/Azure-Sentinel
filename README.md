@@ -11,22 +11,22 @@ I will also be using PowerShell to extract the IP Address from the Windows logs 
 By creating the VM, I was able to see what a failed log on attempt looks like by checking Windows Event Viewer>Audit Failure>Event ID 4625.
 This Event ID also provides network information such as:
 Workstation Name and source IP Address
+(I will be using "ipgeolocation.io IP lookup database" to identify where users are attempting to log in from).
 
 **Scripting**
 Used Powershell ISE to look through event logs, grab all events of people who failed to log in, grab their IP Address, get their geo data and create a new log file.
 
-I will be using "ipgeolocation.io IP lookup database" to identify where users are attempting to log in from.
-
-****Log Analytics WorkSpace ****
-
+**Log Analytics WorkSpace**
 Created custom logs to sync with VM to get info from API and security event viewer.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Microsoft Azure
+- Azure Sentinel
+- Log Analytics Workspace
+- Virtual Machine
+- IPGeolocation
+- PowerShell ISE
 
 ## Conclusion
 
