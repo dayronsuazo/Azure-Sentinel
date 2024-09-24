@@ -17,6 +17,10 @@ Used Powershell ISE to look through event logs, grab all events of people who fa
 
 I will be using "ipgeolocation.io IP lookup database" to identify where users are attempting to log in from.
 
+****Log Analytics WorkSpace ****
+
+Created custom logs to sync with VM to get info from API and security event viewer.
+
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
@@ -24,11 +28,12 @@ I will be using "ipgeolocation.io IP lookup database" to identify where users ar
 - Network analysis tools (such as Wireshark) for capturing and examining network traffic.
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+## Conclusion
 
-Every screenshot should have some text explaining what the screenshot is about.
+Creating this lab and seeing the failed logs attempting to log in and access the VM created has taught me the following-
+Most bots/attackers wil use admin/administrator as a default username to log in.
+How important using MFA for your account
+Restricting access to RDP
+Use strong passwords as there has been almost 9,000 attempts of attackers trying to log in from around the world.
 
-Example below.
 
-*Ref 1: Network Diagram*
