@@ -2,7 +2,7 @@
 Setting up Microsoft Sentinel for SOC Analyst experience
 
 ## Objective
-In this lab, I will firstly sign up for an **Azure subscription**. I will then create a **Virtual Machine (honeypot)** in the Azure environment and turn off all external and Windows firewalls so it is exposed to the Internet (enticing to attackers).
+In this lab, I will firstly sign up for an **Azure subscription**. I will then create a **Virtual Machine (honeypot)** in the Azure environment and turn off all external and Windows firewalls so it is exposed to the Internet making it very discoverable (enticing to attackers).
 My next step will be to set up a **log repository (Log Analytics Workspace)** which will be used to ingest the logs from the VM and finally set up **Azure Sentinel** to create a map, that maps all different attacking data.
 I will also be using PowerShell to extract the IP Address from the Windows logs and send  it to a third party API which will then send it back to our VM, to create a custom log with data.
 
