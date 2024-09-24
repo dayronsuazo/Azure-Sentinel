@@ -12,6 +12,9 @@ By creating the VM, I was able to see what a failed log on attempt looks like by
 This Event ID also provides network information such as:
 Workstation Name and source IP Address
 
+**Scripting**
+Used Powershell ISE to look through event logs, grab all events of people who failed to log in, grab their IP Address, get their geo data and create a new log file.
+
 I will be using "ipgeolocation.io IP lookup database" to identify where users are attempting to log in from.
 
 ### Tools Used
